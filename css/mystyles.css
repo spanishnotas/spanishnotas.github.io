@@ -1,0 +1,47 @@
+.ss {
+    margin-top: 20px;
+}
+.sss {
+    margin-top: 20px;
+}
+
+.numeroTable > :not(caption) > * > * {
+   padding: 0.1rem 0.1rem;
+   border-bottom-width: 0.2px;
+
+}
+
+
+/*
+.ss .title {
+    */
+/*.pb-2 {*//*
+
+    padding-bottom: 0.5rem !important;
+    */
+/*.mb-4 {*//*
+
+    margin-bottom: 1.5rem !important;
+    */
+/*.h4 {*//*
+
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+
+    */
+/*.text-success {*//*
+
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-success-rgb), var(--bs-text-opacity)) !important;
+    */
+/*.border-bottom {*//*
+
+      border-bottom: 1px solid #dee2e6 !important;
+    */
+/*.border-success {*//*
+
+      border-color: #198754 !important;
+}*/
