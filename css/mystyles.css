@@ -2,16 +2,7 @@
 
 }
 
-.dayBadge {
-    width: 100%;
-    text-align: center
-}
-.ss {
-    margin-top: 20px;
-}
-.sss {
-    margin-top: 20px;
-}
+
 
 .numeroTable > :not(caption) > * > * {
    padding: 0.1rem 0.1rem;
@@ -19,9 +10,37 @@
 
 }
 
-.day {
-    margin-top: 100px !important;
+.day .dayCallout{
+    adding: 1.25rem;
+    margin-top: 3.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #eee;
+    border-left-width: 0.25rem;
+    border-right-width: 0.25rem;
+    border-radius: 0.75rem;
+    border-left-color: indianred;
+    border-right-color: indianred;
+    padding: 20px;
 }
+.dayCallout h4 {
+    color: indianred;
+}
+
+.ss .title{
+    margin-top: 1.75rem;
+    margin-bottom: 1.25rem;
+
+    border: 1px solid #eee;
+    border-radius: 0.20rem;
+
+    border-left-width: 0.25rem;
+    border-left-color: #5bc0de;
+    border-bottom-color: #5bc0de;
+
+    padding: 10px;
+}
+
+
 
 /*
 .ss .title {
