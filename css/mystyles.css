@@ -5,6 +5,16 @@
    border-bottom-width: 0.2px;
 
 }
+.classInfo {
+margin-bottom: 1.25rem;
+    border: 1px solid #eee;
+    border--width: 0.15rem;
+
+    border-radius: 0.75rem;
+    border-color: black;
+    padding: 20px;
+    }
+
 
 .day .dayCallout{
     adding: 1.25rem;
