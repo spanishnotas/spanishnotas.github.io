@@ -8,15 +8,11 @@
 // 
 
 window.addEventListener('DOMContentLoaded', event => {
-    //alert('dom loaded')
-    // Toggle the side navigation
+
     const sidebarToggle = document.body.querySelector('#sidebarToggle');
     if (sidebarToggle) {
         document.body.classList.toggle('sb-sidenav-toggled');
-        // Uncomment Below to persist sidebar toggle between refreshes
-        // if (localStorage.getItem('sb|sidebar-toggle') === 'true') {
-        //     document.body.classList.toggle('sb-sidenav-toggled');
-        // }
+
         sidebarToggle.addEventListener('click', event => {
             event.preventDefault();
             document.body.scrollTop = document.documentElement.scrollTop = 0;
