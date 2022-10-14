@@ -19,18 +19,18 @@ window.addEventListener('DOMContentLoaded', event => {
         // }
         sidebarToggle.addEventListener('click', event => {
             event.preventDefault();
-            //document.body.scrollTop = document.documentElement.scrollTop = 0;
+            document.body.scrollTop = document.documentElement.scrollTop = 0;
             document.body.classList.toggle('sb-sidenav-toggled');
             //localStorage.setItem('sb|sidebar-toggle', document.body.classList.contains('sb-sidenav-toggled'));
         });
     }
 
 
-    document.querySelectorAll('#sidebar-wrapper a')
+    /*document.querySelectorAll('#sidebar-wrapper a')
         .forEach(link => link.addEventListener('click', event => {
                     //alert('selected')
                     document.body.classList.toggle('sb-sidenav-toggled');
-    }));
+    }));*/
 
 });
 
