@@ -1,5 +1,8 @@
 
-
+.header {
+    font-size: x-large;
+    padding-left: 10px;
+}
 .numeroTable > :not(caption) > * > * {
    padding: 0.1rem 0.1rem;
    border-bottom-width: 0.2px;
