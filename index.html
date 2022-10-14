@@ -15,39 +15,40 @@
 <body>
 <div class="d-flex" id="wrapper">
     <!-- Sidebar-->
-    <!--<div class="border-end bg-white1111" id="sidebar-wrapper">
+    <div class="border-end bg-white1111" id="sidebar-wrapper">
         <div class="sidebar-heading border-bottom bg-light">Start Bootstrap</div>
         <div class="list-group list-group-flush">
             <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Dashboard</a>
             <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Quiz</a>
             <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Recordings</a>
         </div>
-    </div>-->
+    </div>
     <!-- Page content wrapper-->
     <div id="page-content-wrapper">
         <!-- Top navigation-->
-        <!--                <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">-->
-        <!--                    <div class="container-fluid">-->
-        <!--                        <button class="btn btn-primary" id="sidebarToggle">Menu</button>-->
-        <!--                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>-->
-        <!--                        <div class="collapse navbar-collapse" id="navbarSupportedContent">-->
-        <!--                            <ul class="navbar-nav ms-auto mt-2 mt-lg-0">-->
-        <!--                                <li class="nav-item active"><a class="nav-link" href="#!">Home</a></li>-->
-        <!--                                <li class="nav-item"><a class="nav-link" href="#!">Link</a></li>-->
-        <!--                                <li class="nav-item dropdown">-->
-        <!--                                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>-->
-        <!--                                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">-->
-        <!--                                        <a class="dropdown-item" href="#!">Action</a>-->
-        <!--                                        <a class="dropdown-item" href="#!">Another action</a>-->
-        <!--                                        <div class="dropdown-divider"></div>-->
-        <!--                                        <a class="dropdown-item" href="#!">Something else here</a>-->
-        <!--                                    </div>-->
-        <!--                                </li>-->
-        <!--                            </ul>-->
-        <!--                        </div>-->
-        <!--                    </div>-->
-        <!--                </nav>-->
-        <!-- Page content-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+            <div class="container-fluid">
+                <button class="btn btn-primary" id="sidebarToggle">Menu</button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                        <li class="nav-item active"><a class="nav-link" href="#!">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Link</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#!">Action</a>
+                                <a class="dropdown-item" href="#!">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#!">Something else here</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+         <!--Page content-->
         <div class="container-fluid" style="margin-bottom:100px">
             <h1 class="header text-center"><code>Mis notas en español</code></h1>
 
@@ -64,7 +65,7 @@
                     <a href="https://us06web.zoom.us/rec/play/agJJ5EjGo7qCg8i4baBEiV0R1XtgyG9QVFTDLJ4pVHXt_3DNsDJUsNBTNa24B9D_vQBIlQ6lkPayhmcE.yhhYcMnWsVI7j4qx?continueMode=true&_x_zm_rtaid=lGyfEQW8TfmSrb_xm61dzQ.1663693838154.6bd120560e640bb070efb33e97a6a7a2&_x_zm_rhtaid=239">Recording</a>
                 </div>
                 <div class="ss">
-                    <div class="title h4">Introduction</div>
+                    <div id="intro" class="title h4">Introduction</div>
                     <p>
                         <code>Me llamo</code> Vinay. <br>
                         <code>Mi nombre es</code> Vinay.<br>
@@ -83,8 +84,7 @@
                 </div>
 
                 <div class="ss">
-                    <div class="title h4"> Profesiones [Professions]
-                    </div>
+                    <div id="professions" class="title h4"> Profesiones [Professions]</div>
                     <ul>
                         <li><code>profesora</code> [professor]</li>
                         <li><code>emprendedor</code> [entrepreneur]</li>
@@ -99,8 +99,7 @@
                 </div>
 
                 <div class="ss">
-                    <div class="title h4"> Preguntas
-                        [Questions]</div>
+                    <div class="title h4"> Preguntas[Questions]</div>
                     <ul>
                         <li><code>¿Como te llamas?</code> [What's your name? (How are you called?)]</li>
                         <li><code>¿Cuál es tu nombre?</code> [What's your name? (Which is your name?)]</li>
@@ -111,7 +110,7 @@
                 </div>
 
                 <div class="ss">
-                    <div class="title h4">Bye!</div>
+                    <div id="bye" class="title h4">Bye!</div>
                     <ul>
                         <li><code>hasta luego</code> [see you later]</li>
                         <li><code>hasta pronto</code> [see you soon]</li>
@@ -133,8 +132,7 @@
                     <h4>Day 2: Monday 9/19</h4>
                 </div>
                 <div class="ss">
-                    <div class="title h4"> Saludos
-                        [Greetings]
+                    <div id="greetings" class="title h4"> Saludos [Greetings]
                     </div>
                     <ul>
                         <li><code>¡Hola!</code> [Hi]</li>
@@ -150,8 +148,7 @@
                 </div>
 
                 <div class="ss">
-                    <div class="title h4">El abecedario
-                        [Alphabets]</div>
+                    <div id="alphabets" class="title h4">El abecedario [Alphabets]</div>
 
                     <table cellspacing="1" style="width:400px;">
                         <tbody>
@@ -237,7 +234,7 @@
                         </tbody>
                     </table>
                     <div class="sss">
-                        <div class="title2 h6">Common names</div>
+                        <div id="commonNames" class="title2 h6">Common names</div>
                         <div class="row">
                             <div class="col-6">
                                 <ul>
@@ -259,13 +256,10 @@
                                 </ul>
                             </div>
                         </div>
-
                     </div>
                 </div>
                 <div class="ss">
-                    <div class="title h4"> Números
-                        [Numbers]
-                    </div>
+                    <div id="numbers" class="title h4"> Números [Numbers]</div>
                     <div class="row">
                         <div class="col">
                             <table class="table numeroTable">
@@ -681,7 +675,7 @@
                     <h4>Day 3: Wednesday 9/21</h4>
                 </div>
                 <div class="ss">
-                    <div class="title h4"> How do you say?</div>
+                    <div id="howDoYouSay" class="title h4"> How do you say?</div>
                     <div>
                         <h6><code>¿ Cómo se dice watch en español?</code></h6>
                         <h10>[ How do you say 'watch' in spanish? ]</h10>
@@ -692,7 +686,7 @@
                 </div>
 
                 <div class="ss">
-                    <div class="title h4"> Indefinite Articles</div>
+                    <div id="indefiniteArticles" class="title h4"> Indefinite Articles [Un, Una, Unos, Unas]</div>
                     <ul>
                         <li><code>Un</code> is 'a,' masculine.</li>
                         <li><code>Una</code> is 'a,' feminine.</li>
@@ -721,7 +715,7 @@
                     </ul>
                 </div>
                 <div class="ss">
-                    <div class="title h4"> Some common objects</div>
+                    <div id="commonObjects" class="title h4"> Some common objects</div>
                     <div class="row">
                         <div class="col">
                             <ul>
@@ -779,7 +773,7 @@
                     <h4>Day 4: Thursday 9/22</h4>
                 </div>
                 <div class="ss">
-                    <div class="title h4"> Hay</div>
+                    <div id="hay" class="title h4"> Hay</div>
                     <b> There are / There is </b>
                     <ul>
                         <li><code> Hay una zona peatonal</code> [a pedestrian zone]</li>
@@ -793,7 +787,7 @@
                     </ul>
                 </div>
                 <div class="ss">
-                    <div class="title h4"> Familia</div>
+                    <div id="family" class="title h4"> Familia</div>
                     <div class="row">
                         <div class="col-4">
                             <ul>
@@ -851,7 +845,7 @@
                     <h4>Day 5: Friday 9/23</h4>
                 </div>
                 <div class="ss">
-                    <div class="title h4"> Verbs (Regular)</div>
+                    <div id="verbs" class="title h4"> Verbs (Regular)</div>
                     <img src="./img/verbs-regular.jpeg" class="img-fluid" width="400" height="200">
                 </div>
             </div>
@@ -860,7 +854,7 @@
                     <h4>Day 6: Monday 9/26</h4>
                 </div>
                 <div class="ss">
-                    <div class="title h4"> Verbs (Irregular)</div>
+                    <div id="verbsIrregular" class="title h4"> Verbs (Irregular)</div>
 
                 <div class="container">
                     <div class="row border-bottom">
@@ -959,7 +953,7 @@
                     <h4>Day 7: Tuesday 9/27</h4>
                 </div>
                 <div class="ss">
-                    <div class="title h4"> Adjectives</div>
+                    <div id="adjectives" class="title h4"> Adjectives</div>
 
                     <div class="row">
                         <div class="col">
@@ -1029,7 +1023,7 @@
                     <h4>Day 8: Thursday 9/28</h4>
                 </div>
                 <div class="ss">
-                    <div class="title h4"> Asking Names</div>
+                    <div id="askingNames" class="title h4"> Asking Names</div>
 
                     <div class="row">
                         <div class="col">
@@ -1043,7 +1037,7 @@
                     </div>
                 </div>
                 <div class="ss">
-                    <div class="title h4"> Ser, Tener, Querer, Poder</div>
+                    <div id="serTener" class="title h4"> Ser, Tener, Querer, Poder</div>
 
                     <div class="row">
                         <div class="col">
@@ -1104,12 +1098,12 @@
                 </div>
 
                 <div class="ss">
-                    <div class="title h4"> Other stem chaning verbs</div>
+                    <div id="otherStemChaning" class="title h4"> Other stem changing verbs</div>
 
                     <img src="./img/stem-changing-verbs.jpeg" class="img-fluid" width="400" height="200">
                 </div>
                 <div class="ss">
-                    <div class="title h4"> Most common irregular verbs</div>
+                    <div id="irregularVerbs" class="title h4"> Most common irregular verbs</div>
 
                     <a target="_blank" href="https://spanish.yourdictionary.com/spanish-language/spanish-verb-conjugations/20-most-common-irregular-verbs-in-spanish.html">https://spanish.yourdictionary.com/spanish-language/spanish-verb-conjugations/20-most-common-irregular-verbs-in-spanish.html</a>
                     <br><br>
@@ -1239,7 +1233,7 @@
                 </div>
 
                 <div class="ss">
-                    <div class="title h4"> Tener Que [Have to]</div>
+                    <div id="tenerQue" class="title h4"> Tener Que [Have to]</div>
                     <p>The verb, tener que, is the way to say that we need to or have to do something. </p>
                     <ul>
                         <li>I have to study. <code>Tengo que estudiar.</code></li>
@@ -1258,7 +1252,7 @@
                 </div>
             </div>
             <div class="ss">
-                <div class="title h4"> Ser vs Estar</div>
+                <div id="serEstar" class="title h4"> Ser vs Estar</div>
                 <p>The verb estar also translates into English as "to be". While ser is preferred for more permanent situations, estar tends to be used for passing ones. To be more specific, estar is generally used for things like position, location, action, condition and emotion (often memorized with the acronym PLACE).</p>
                 <div class="row">
                     <div class="col">
@@ -1375,7 +1369,7 @@
                 </div>
             </div>
             <div class="ss">
-                <div class="title h4"> El clima</div>
+                <div id="weather" class="title h4"> El clima [weather]</div>
 
                 <h6><code>Como esta el clima?</code></h6>
                 <h6><code>Que tiempo hace?</code>[tiemo = clima = weather]</h6>
@@ -1412,7 +1406,7 @@
                 </div>
 
                 <div class="ss">
-                    <div class="title h4"> Gustar, Encantar, Gustaría</div>
+                    <div id="gustar" class="title h4"> Gustar, Encantar, Gustaría</div>
 
                     <div class="row">
                     <div class="col">
@@ -1509,7 +1503,7 @@
                 </div>
 
                 <div class="ss">
-                    <div class="title h4"> Tener que, Deber, Necesitar</div>
+                    <div id="tenerQueDeber" class="title h4"> Tener que, Deber, Necesitar</div>
 
                     <div class="row">
                             <div class="col">
@@ -1559,7 +1553,7 @@
                     </p>
                 </div>
                 <div class="ss">
-                    <div class="title h4"> Shopping</div>
+                    <div id="shopping" class="title h4"> Shopping</div>
                     <div class="row">
                         <div class="col">
                             <ul>
