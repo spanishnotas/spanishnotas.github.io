@@ -38,6 +38,27 @@ margin-bottom: 1.25rem;
     color: indianred;
 }
 
+.quiz.btn {
+    --bs-bg-opacity: 0.1;
+    display: inline-flex !important;
+    adding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+    padding-right: 0.5rem !important;
+    padding-left: 0.5rem !important;
+
+    margin-bottom: 1rem !important;
+
+    border: 1px solid #dee2e6 !important;
+    border-color: #ffc107 !important;
+    border-radius: 0.25rem !important;
+
+
+    /*d-inline-flex mb-3 px-2 py-1 fw-semibold text-dark bg-warning  bg-opacity-10 border border-warning
+    border-opacity-10 rounded-2" target="_blank" href="https://www.spanishdict.com/lists/1551597/food-adjectives/quiz" role="button" style="
+    font-size: 0.875em;*/
+
+
+}
 .ss .title{
     margin-top: 4rem;
     margin-bottom: 1.25rem;
